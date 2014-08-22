@@ -87,9 +87,9 @@ _Sappho is different from CodeIgniter_
     (4) You also can use cdn_boostrap_theme_css($version),cdn_jquery($version='1.10.0'),
         cdn_bootstrap_js($version='2.3.0').
 
-> **4.  Web Service -- Json **
+> **4.  Web Service -- Json**
 
-> - 4.1 ** web serivce api **
+> - **4.1** web serivce api
 
     You can use this library to build Web services a application.
     
