@@ -73,7 +73,8 @@ _Sappho is different from CodeIgniter_
         auto load this helper file.
     
     (2) If you want to use bootstrap css,you could write 
-        'echo (cdn_bootstrap_css());' in your view.such as:
+        'echo (cdn_bootstrap_css());' in your view.
+        Such as:
     
     //example_view.php
     <html>
