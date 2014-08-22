@@ -53,7 +53,9 @@ $autoload['packages'] = array();
 | ----------------------------------------------------------------------
 | If you want develop webservice project, you should set:
 |       autoload['libraries'] = array('REST_Controller',);  
- 
+|  
+|	MongoDB:
+|		If you use MongoDB as your database ,$autoload['libraries'] = array('Mdb');
 */
 
 $autoload['libraries'] = array();
