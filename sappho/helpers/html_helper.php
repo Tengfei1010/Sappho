@@ -431,6 +431,81 @@ if ( ! function_exists('nbs'))
 	}
 }
 
+// ------------------------------------------------------------------------
+
+/**
+ * Generates cdn bootstrap resource
+ *
+ * @access	public
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('cdn_bootstrap_css'))
+{
+	function cdn_bootstrap_css($version = '2.3.0')
+	{
+		
+		$str = "<link href='http://cdn.bootcss.com/bootstrap/".$version."/css/bootstrap.min.css'  rel='stylesheet'>";
+		return $str;
+	}
+}
+
+// ------------------------------------------------------------------------
+
+/**
+ * Generates cdn bootstrap-theme resource
+ *
+ * @access	public
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('cdn_bootstrap_theme_css'))
+{
+	function cdn_bootstrap_theme_css($version = '2.3.0')
+	{
+		
+		$str = "<link href='http://cdn.bootcss.com/bootstrap/".$version."/css/bootstrap-theme.min.css'  rel='stylesheet'> ";
+		return $str;
+	}
+}
+
+// ------------------------------------------------------------------------
+
+/**
+ * Generates cdn jquery resource
+ *
+ * @access	public
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('cdn_juqery'))
+{
+	function cdn_juqery($version = '1.10.0')
+	{
+		
+		$str = "<script src= 'http://cdn.bootcss.com/jquery/".$version."/jquery.min.js'></script>";
+		return $str;
+	}
+}
+
+// ------------------------------------------------------------------------
+
+/**
+ * Generates cdn jquery resource
+ *
+ * @access	public
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('cdn_bootstrap_js'))
+{
+	function cdn_bootstrap_js($version = '2.3.0')
+	{
+		
+		$str = "<script src= 'http://cdn.bootcss.com/jquery/".$version."/js/bootstrap.min.js'></script>";
+		return $str;
+	}
+}
 
 /* End of file html_helper.php */
 /* Location: ./system/helpers/html_helper.php */
